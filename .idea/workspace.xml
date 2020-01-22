@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="344205bf-21ff-4868-8a97-05cf38dafb16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/04ed2f18-7a8a-4ce4-86f0-2a80ccdcd300.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/templates/unit/unit_edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,6 +90,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -98,7 +104,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="untitled.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="F:\flash\untitled\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -107,7 +113,7 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
@@ -142,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578562214815</updated>
-      <workItem from="1578562260201" duration="27940000" />
+      <workItem from="1578562260201" duration="38890000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <created>1578562561952</created>
@@ -172,7 +178,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579291744536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added extra fields to Unit form">
+      <created>1579679706093</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579679706093</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added extra fields to Unit form">
+      <created>1579679720581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579679720581</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added extra fields to Unit form">
+      <created>1579679726460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579679726460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added extra fields to Unit form">
+      <created>1579679746835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579679746835</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,35 +220,56 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added extra fields to Unit form" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="503" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579292755750">
-      <screen x="0" y="0" width="1824" height="978" />
+    <state x="529" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579681425673">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="503" y="137" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1824.978@0.0.1824.978" timestamp="1579292755750" />
-    <state x="484" y="38" key="CommitChangelistDialog2" timestamp="1579679740294">
+    <state x="529" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579681425673" />
+    <state x="484" y="38" key="CommitChangelistDialog2" timestamp="1579679746247">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="460" y="18" key="CommitChangelistDialog2/0.0.1824.978@0.0.1824.978" timestamp="1579291743401" />
-    <state x="484" y="38" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579679740294" />
-    <state width="1768" height="259" key="GridCell.Tab.0.bottom" timestamp="1579291681017">
-      <screen x="0" y="0" width="1824" height="978" />
+    <state x="484" y="38" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579679746247" />
+    <state width="1165" height="582" key="DebuggerActiveHint" timestamp="1579705090636">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1165" height="582" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705090636" />
+    <state width="1864" height="277" key="GridCell.Tab.0.bottom" timestamp="1579705340581">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1768" height="259" key="GridCell.Tab.0.bottom/0.0.1824.978@0.0.1824.978" timestamp="1579291681017" />
-    <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579185572711" />
-    <state width="1768" height="259" key="GridCell.Tab.0.center" timestamp="1579291681016">
-      <screen x="0" y="0" width="1824" height="978" />
+    <state width="1864" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705340581" />
+    <state width="1864" height="277" key="GridCell.Tab.0.center" timestamp="1579705340581">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1768" height="259" key="GridCell.Tab.0.center/0.0.1824.978@0.0.1824.978" timestamp="1579291681016" />
-    <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579185572711" />
-    <state width="1768" height="259" key="GridCell.Tab.0.left" timestamp="1579291681016">
-      <screen x="0" y="0" width="1824" height="978" />
+    <state width="1864" height="277" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705340581" />
+    <state width="1864" height="277" key="GridCell.Tab.0.left" timestamp="1579705340581">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1768" height="259" key="GridCell.Tab.0.left/0.0.1824.978@0.0.1824.978" timestamp="1579291681016" />
-    <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579185572711" />
-    <state width="1768" height="259" key="GridCell.Tab.0.right" timestamp="1579291681017">
-      <screen x="0" y="0" width="1824" height="978" />
+    <state width="1864" height="277" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705340581" />
+    <state width="1864" height="277" key="GridCell.Tab.0.right" timestamp="1579705340581">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1768" height="259" key="GridCell.Tab.0.right/0.0.1824.978@0.0.1824.978" timestamp="1579291681017" />
-    <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579185572711" />
+    <state width="1864" height="277" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705340581" />
+    <state width="1864" height="321" key="GridCell.Tab.1.bottom" timestamp="1579705188607">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705188607" />
+    <state width="1864" height="321" key="GridCell.Tab.1.center" timestamp="1579705188607">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705188607" />
+    <state width="1864" height="321" key="GridCell.Tab.1.left" timestamp="1579705188607">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705188607" />
+    <state width="1864" height="321" key="GridCell.Tab.1.right" timestamp="1579705188607">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1920.1080@0.0.1920.1032" timestamp="1579705188607" />
     <state width="263" height="542" key="HiddenNamespacesPopup" timestamp="1579277091453">
       <screen x="0" y="0" width="1824" height="978" />
     </state>
