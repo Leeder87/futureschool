@@ -4,9 +4,14 @@ from .models import Unit
 
 
 class UnitForm(forms.ModelForm):
-    name = forms.CharField(max_length=200)
-    url = forms.CharField(max_length=200)
+    text = forms.CharField(max_length=200, required=False)
+    answer = forms.CharField(max_length=200, required=False)
+    right_comment = forms.CharField(max_length=200, required=False)
+    wrong_comment = forms.CharField(max_length=200, required=False)
+    url = forms.CharField(max_length=200, required=False)
+    right_extra = forms.ModelChoiceField(queryset=Unit.objects.all(), required=False)
+    wrong_extra = forms.ModelChoiceField(queryset=Unit.objects.all(), required=False)
 
     class Meta:
         model = Unit
-        fields = ["name", "url", "unit_type"]
+        fields = ["text", "url", "answer", "right_comment", "wrong_comment", "right_extra", "wrong_extra", "unit_type"]
